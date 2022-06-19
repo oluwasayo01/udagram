@@ -13,3 +13,9 @@ You'll need to create a new node server. Open a new terminal within the project 
 
 ### Elasticbeanstalk url (EB_URL):
 - http://udagram-dev-oluwasayo.us-east-1.elasticbeanstalk.com/
+
+The endpoint can be tested by sending a `GET` request to:
+```
+http://udagram-dev-oluwasayo.us-east-1.elasticbeanstalk.com/filteredImage?image_url={image_url}
+```
+where `image_url` is a query parameter that indicates the url of the publicly available image.
